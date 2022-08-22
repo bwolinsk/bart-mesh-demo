@@ -13,7 +13,7 @@
     command: >
       receptorctl --socket /var/run/awx-receptor/receptor.sock status
     register: hop_status
-    until: hop_status.stdout.find('automation-controller21') != -1
+    until: hop_status.stdout.find('ip-172-31-22-232.ec2.internal') != -1
     delay: 5
     retries: 15
 
