@@ -5,8 +5,8 @@
   become: true
 
   vars:
-    mesh_target: mesh-exec1
-
+    mesh_target: ip-172-31-31-253.ec2.internal
+    
   tasks:
   - name: Show mesh status
     ansible.builtin.command: "receptorctl --socket /var/run/awx-receptor/receptor.sock status"
