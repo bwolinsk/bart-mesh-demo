@@ -1,0 +1,8 @@
+# Automation mesh inventory
+[automationcontroller]
+ip-172-31-22-232.ec2.internal ansible_connection=local
+
+[execution_nodes]
+ip-172-31-31-253.ec2.internal
+ip-172-31-30-150.ec2.internal
+
